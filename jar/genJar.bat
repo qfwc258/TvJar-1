@@ -1,6 +1,5 @@
 @echo off
-echo dp0 = %~dp0
-@REM pause
+
 del "%~dp0\custom_spider.jar"
 
 rd /s/q "%~dp0\Smali_classes"
